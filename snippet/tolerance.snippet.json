@@ -1,0 +1,54 @@
+{
+	"[if-statement]": {
+		"prefix": "if",
+		"body": [
+		    "if ${1:condition}:\n\t$0"
+		],
+		"description": [
+            "if statement"
+        ]   
+    },
+	"[while-statement]": {
+		"prefix": "while",
+		"body": [
+		    "while ${1:condition}:\n\t$0"
+		],
+		"description": [
+            "while statement"
+        ]   
+    },
+	"[for-statement]": {
+		"prefix": "for",
+		"body": [
+		    "for ${1:var} in ${2:iterable}:\n\t$0"
+		],
+		"description": [
+            "for statement"
+        ]   
+    },
+	"[try-statement]": {
+		"prefix": "try",
+		"body": [
+		    "try:",
+            "   $0",
+            "except e:",
+            "   ",
+            "else:",
+            "   ",
+            "finally:",
+            "   "
+		],
+		"description": [
+            "try statement"
+        ]   
+    },
+	"[stack-statement]": {
+		"prefix": "@stack",
+		"body": [
+		    "@stack\n\t$0"
+		],
+		"description": [
+            "stack statement"
+        ]   
+    }
+}

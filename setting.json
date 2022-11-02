@@ -1,0 +1,19 @@
+{
+    "editor.tokenColorCustomizations": {
+        "keywords": "#FF0000",
+        "textMateRules": [
+            {
+                "scope": "tolerance.label",
+                "settings": {
+                    "foreground": "#f3b8b8"
+                }
+            },
+            {
+                "scope": "keyword.other",
+                "settings": {
+                    "foreground": "#fce770"
+                }
+            }
+        ]
+    }
+}

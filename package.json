@@ -1,8 +1,10 @@
 {
+  "publisher": "subamachida",
   "name": "tolerance-extension",
+  "icon": "img/icon.png",
   "displayName": "tolerance-extension",
-  "description": "tolerance Syntax Highlight",
-  "version": "0.0.1",
+  "description": "tolerance syntax-highlight and a few snippets",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -13,13 +15,21 @@
     "languages": [{
       "id": "tolerance",
       "aliases": ["tolerance", "tolerance"],
-      "extensions": [".tlr"],
+      "extensions": [".tl", ".tlr"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
       "language": "tolerance",
       "scopeName": "source.tolerance",
       "path": "./syntaxes/tolerance.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "tolerance",
+      "scopeName":"source.tolerance",
+      "path": "./snippet/tolerance.snippet.json"
     }]
+  },
+  "repository": {
+    "url": "https://github.com/machida3778/tolerance-extension"
   }
 }
