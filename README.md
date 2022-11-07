@@ -25,5 +25,8 @@ You don't need any settings for this extension.
 
 Initial release of tolerance-extension
 
+### 1.0.2
+
+Fix string match bugs
 
 **Enjoy!**

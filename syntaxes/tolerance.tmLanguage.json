@@ -157,8 +157,7 @@
 		},
 		"string": {
 			"name": "string.quoted.double.tolerance",
-			"begin": "\"",
-			"end": "\""
+			"match": "(?<![_$[:alnum:]])\".*?\"(?![_$[:alnum:]])"
 		},
 		"specific-literals": {
 			"name": "constant.language.tolrance",

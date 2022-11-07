@@ -1,4 +1,4 @@
-tolerance-extension v1.0.1
+tolerance-extension v1.0.2
 
 Copyright (c) 2022 machida3778
 
