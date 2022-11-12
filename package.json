@@ -4,7 +4,7 @@
   "icon": "img/icon.png",
   "displayName": "tolerance-extension",
   "description": "tolerance syntax-highlight and a few snippets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.72.0"
   },

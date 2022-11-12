@@ -29,4 +29,8 @@ Initial release of tolerance-extension
 
 Fix string match bugs
 
+### 1.0.3
+
+Change token "::" to "<<<"
+
 **Enjoy!**

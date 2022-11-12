@@ -178,7 +178,7 @@
 		"identifier": {
 			"patterns": [
 				{
-					"match": "(?<![_$[:alnum:]])([A-Za-z_][A-Za-z_0-9]*)(?![_$[:alnum:]])\\s*(::)",
+					"match": "(?<![_$[:alnum:]])([A-Za-z_][A-Za-z_0-9]*)(?![_$[:alnum:]])\\s*(<<<)",
 					"captures": {
 						"1": {
 							"name": "entity.name.function.tolerance"
