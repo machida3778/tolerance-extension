@@ -113,7 +113,7 @@
 		"stack-instructions": {
 			"patterns": [{
 				"name": "token.info-token.tolerance",
-				"match": "\\s+(?<![_$[:alnum:]])(clear|depth|swap|roll|rot|dup|2dup|3dup|drop|2drop|3drop|fdrop|sdrop|pick|fpick|spick|!)(?![_$[:alnum:]])\\s+"
+				"match": "(?<![_$[:alnum:]])(clear|depth|swap|roll|rot|dup|2dup|3dup|drop|2drop|3drop|fdrop|sdrop|pick|fpick|spick|!)(?![_$[:alnum:]])"
 			}]
 		},
 		"expression": {

@@ -22,15 +22,15 @@ You don't need any settings for this extension.
 
 ## Release Notes
 ### 1.0.1
-
 Initial release of tolerance-extension
 
 ### 1.0.2
-
 Fix string match bugs
 
 ### 1.0.3
-
 Change token "::" to "<<<"
+
+### 1.0.4
+Fix a highlight bug of stack instructions
 
 **Enjoy!**
